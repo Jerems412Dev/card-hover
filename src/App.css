@@ -1,0 +1,116 @@
+.hover-div:hover {
+    background-color: #d6e6fe;
+    div:last-child {
+        border: 1px solid #9ab3d2;
+        button {
+            border: 1px solid #9ab3d2;
+            svg {
+                fill: #9ab3d2;
+            }
+        }
+    }
+}
+
+.active-top {
+    animation: top 0.2s ease-in-out forwards;
+}
+
+.un-active-top {
+    animation: reverse-top 0.2s ease-in-out forwards;
+}
+
+.img1 {
+    animation: rotate-img1 0.3s ease-in-out forwards;
+}
+
+.img3 {
+    animation: rotate-img3 0.3s ease-in-out forwards;
+}
+
+.img4 {
+    animation: rotate-img4 0.3s ease-in-out forwards;
+}
+
+.reverse-img1 {
+    animation: reverse-rotate-img1 0.3s ease-in-out forwards;
+}
+
+.reverse-img3 {
+    animation: reverse-rotate-img3 0.3s ease-in-out forwards;
+}
+
+.reverse-img4 {
+    animation: reverse-rotate-img4 0.3s ease-in-out forwards;
+}
+
+@keyframes top {
+    0% {
+        top: 5rem;
+    }
+    100% {
+        top: -0.5rem;
+    }
+}
+
+@keyframes reverse-top {
+    0% {
+        top: -0.5rem;
+    }
+    100% {
+        top: 5rem;
+    }
+}
+
+@keyframes rotate-img1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-25deg);
+    }
+}
+
+@keyframes rotate-img3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-15deg);
+    }
+}
+
+@keyframes rotate-img4 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+@keyframes reverse-rotate-img1 {
+    0% {
+        transform: rotate(-25deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes reverse-rotate-img3 {
+    0% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes reverse-rotate-img4 {
+    0% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
